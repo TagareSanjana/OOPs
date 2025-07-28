@@ -1,0 +1,14 @@
+class Sanjana():
+    def frnd3(self):
+        print("I am sanjana")
+class Raga(Sanjana):
+    def frnd1(self):
+        print("she is my frnd") 
+class Navya(Sanjana):
+    def frnd2(self):
+        print("she is my bestfrnd")
+ob = Raga()
+ob.frnd1()
+ob = Navya()
+ob.frnd2()
+ob.frnd3()
