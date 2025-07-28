@@ -1,0 +1,10 @@
+class Hey():
+    def __init__(self):
+        self.a=10 
+        self.b=20 
+    def fun1(self):
+        print(self.a) 
+    def fun2(self):
+        print(self.b) 
+ob = Hey() 
+ob.fun2() 
